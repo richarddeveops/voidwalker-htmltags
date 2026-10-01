@@ -1,0 +1,11 @@
+HTML TAGS AND ELEMENTS
+
+An HTML element is defined by a start tag, some content, and an end tag:
+
+Element = tag + content + attribute
+
+<h1></h1> = tag
+
+I learnt that an HTML element is made from a tag, content, and sometimes attributes. A container element has an opening tag, content, and a closing tag, for example <p>Text</p>.
+
+I practised headings, paragraphs, buttons, spans, links, images, and common attributes such as href, src, alt, and class. I also learnt that HTML comments can be used to explain code without displaying the comment on the page.

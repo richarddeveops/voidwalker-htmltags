@@ -1,0 +1,107 @@
+Assignment 2: List and test 80 more tags each and categorize them under
+closing and self closing tags
+
+HTML ASSIGNMENT: SELF-CLOSING TAGS
+===================================
+
+What is a self-closing tag? 
+----------------------------
+In HTML, the more accurate name is a void element. It does not contain text
+or another element, so it does not need a separate closing tag.
+
+Example from the assignment:
+    <br>
+
+The slash form is also commonly written:
+    <br />
+
+In normal HTML, both forms work. The slash is required for XML-style syntax,
+but it is not required for HTML void elements.
+
+IMPORTANT TEST RESULT
+---------------------
+The assignment contains 40 different tag names in the Self closing Tags
+section. There are no duplicate tag names.
+
+The first 17 are HTML elements. The last 23 are SVG elements placed inside
+one <svg> container. SVG elements use XML-style /> syntax.
+
+HTML TAGS
+---------
+1.  <br>       Creates a line break.
+2.  <img>      Displays an image. The src attribute gives the image location.
+3.  <hr>       Creates a thematic break, usually shown as a horizontal line.
+4.  <input>    Creates a form input, such as a text box or button.
+5.  <meta>     Provides information about the HTML document, such as its
+               character set or viewport settings.
+6.  <link>     Connects the document to an outside resource, commonly CSS.
+7.  <area>     Defines a clickable area in an image map.
+8.  <base>     Sets the base URL used by relative links in the page.
+9.  <col>      Defines column settings inside a table.
+10. <embed>    Embeds outside content, such as media.
+11. <source>   Gives a media element an alternative audio or video source.
+12. <track>    Adds timed text, such as subtitles, to audio or video.
+13. <param>    Was used to define parameters for an <object>. It is obsolete
+               in modern HTML.
+14. <wbr>      Shows where a long word may be broken onto a new line.
+15. <command>  Obsolete HTML element. It was intended for menu commands.
+16. <keygen>   Obsolete HTML element. It was intended to generate a key pair.
+17. <menuitem> Obsolete HTML element. It was intended for menu commands.
+
+SVG TAGS
+--------
+These must be used inside an <svg> element. They are useful for drawing shapes
+or applying visual effects. The /> ending is shown to make the empty element
+clear.
+
+18. <circle>             Draws a circle.
+19. <ellipse>             Draws an oval or ellipse.
+20. <line>                Draws a straight line.
+21. <path>                Draws a custom shape using path commands.
+22. <polygon>             Draws a closed shape made from connected points.
+23. <polyline>            Draws connected line segments that are not closed.
+24. <rect>                Draws a rectangle or square.
+25. <stop>                Defines a color stop for a gradient.
+26. <use>                 Reuses another SVG shape or element.
+27. <view>                Defines a view of an SVG drawing.
+28. <image>               Places an image inside an SVG drawing.
+29. <feBlend>             Blends two image layers in an SVG filter.
+30. <feColorMatrix>       Changes colors using a color matrix.
+31. <feComponentTransfer> Adjusts color channels using transfer functions.
+32. <feComposite>         Combines two image layers using a compositing rule.
+33. <feConvolveMatrix>    Applies a convolution effect, such as sharpening.
+34. <feDiffuseLighting>   Creates a diffuse lighting effect.
+35. <feDisplacementMap>   Distorts an image using another image as a map.
+36. <feDistantLight>      Defines a distant light for an SVG lighting filter.
+37. <feDropShadow>        Adds a drop-shadow effect.
+38. <feFlood>             Creates a solid color for an SVG filter effect.
+39. <feFuncA>             Defines a transfer function for the alpha channel.
+40. <feFuncB>             Defines a transfer function for the blue channel.
+
+HOW TO EXPLAIN THE DIFFERENCE IN CLASS
+--------------------------------------
+Container tag example:
+    <p>This is a paragraph.</p>
+
+A container tag has an opening tag, content, and a closing tag.
+
+Void/self-closing tag example:
+    <br>
+
+A void tag has no content and no closing tag. It performs an action or adds
+an object directly to the page.
+
+One correction to mention:
+- <command>, <keygen>, <menuitem>, and <param> are old/obsolete elements.
+- The SVG examples are valid SVG empty elements, but they are not ordinary
+  HTML void elements.
+- In modern HTML, use <button> or another current control instead of the
+  obsolete command-style elements.
+
+TEST CHECKLIST
+--------------
+[PASS] 40 tag entries found in the self-closing section.
+[PASS] 40 unique tag names found.
+[PASS] No duplicate area or base entries.
+[PASS] HTML void elements use the same simple style as the original code.
+[PASS] SVG empty elements use /> inside an <svg> container.
