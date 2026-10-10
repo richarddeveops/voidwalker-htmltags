@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lesson.css">
     <title>Assignment</title>
+    <style>
+        body {
+            background-color: grey;
+            padding: 40px;
+        }
+    </style>
 </head>
 <body>
     <!-- Container Tags -->
@@ -47,7 +54,7 @@
      <header>This is a header.</header>
      <i>This is italic text.</i>
      <small>This is small text.</small>
-     <a href="http://">Link</a>
+    <a href="https://example.com/">Example link</a>
      <span>This is a span.</span>
      <label for="name">Name:</label>
      <option value="option1">Option 1</option>
@@ -55,17 +62,17 @@
 
     <!-- Self closing Tags -->
     <br>
-    <img src="" alt="image">
+    <img src="../Html multimedia/Images/Profile image.jpg" alt="Portrait used in the HTML media lesson" width="240">
     <hr>
     <input type="text" placeholder="Enter text">
     <meta name="description" content="HTML self-closing tag examples">
-    <link rel="stylesheet" href="style.css">
-    <area shape="rect" coords="0,0,10,10" href="#">
-    <base href="https://example.com/">
+    <area shape="rect" coords="0,0,10,10" href="https://example.com/">
     <col>
-    <embed src="video.mp4" type="video/mp4">
-    <source src="audio.mp3" type="audio/mpeg">
-    <track src="captions.vtt" kind="subtitles" srclang="en" label="English">
+    <embed src="../Html multimedia/Video/VID-20260501-WA0014.mp4" type="video/mp4" width="320" height="240">
+    <audio controls>
+        <source src="../Html multimedia/Music/See_You_Again.mp3" type="audio/mpeg">
+        Audio playback is not supported by this browser.
+    </audio>
     <param name="movie" value="film.swf">
     <wbr>
     <command type="command" label="Save">
@@ -82,7 +89,7 @@
         <stop offset="0" />
         <use href="#shape" />
         <view viewBox="0 0 1 1" />
-        <image href="image.png" width="1" height="1" />
+        <image href="../Html multimedia/Images/Profile image.jpg" width="1" height="1" />
         <feBlend in="SourceGraphic" in2="SourceGraphic" />
         <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
         <feComponentTransfer />
