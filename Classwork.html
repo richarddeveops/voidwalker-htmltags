@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../lesson.css">
-    <style>
-        body {
-            background-color: grey;
-            padding: 50px;
-        }
-    </style>
-    <title>About me</title>
+    <link rel="stylesheet" href="../theme.css">
+    <title>HTML Tags Classwork</title>
 </head>
 <body>
-    <h1>About me</h1>
-    <h2>Hi my name is: Temitope</h2>
-    <p><span><h3>Things i like doing:</h3> Movie,Programming,Anime,Playing video games etc.</span></p>
-    <p>I am a student of SQI college of ICT</p>
-    <p>Department: Software engeneering</p>
-    <p>Lvl: Level one[introduction to HTML&CSS]</p>
-    <h4>The name of our instructor is Miss Seyi</h4>
-    <p>I have been enjoying my class since monday, cause i've learnt new things in web development, Like: The Three Tier Architecture which is the summary of how a websites and apps works, And i've learnt the different between <span><b>Webpage,Website,Webapplication</b> etc.</span></p>
-    <button>Learn more</button>
+    <header>
+        <p><a href="../index.html">All lessons</a></p>
+        <h1>HTML Tags Classwork</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About this page</h2>
+            <p>This page practises headings, paragraphs, lists, and links.</p>
+            <h3>Things I enjoy</h3>
+            <ul>
+                <li>Watching movies and anime</li>
+                <li>Programming</li>
+                <li>Playing video games</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Learning web development</h2>
+            <p>
+                I am a Software Engineering student learning how web pages use
+                HTML for structure and CSS for presentation.
+            </p>
+            <p>These are examples of <strong>important text</strong> and <em>emphasized text</em>.</p>
+        </section>
+        <nav aria-label="HTML tags lesson pages">
+            <p><a href="lesson-summary.txt">What I learned</a></p>
+            <p><a href="Assingment.html">Open the void and SVG element assignment</a></p>
+        </nav>
+    </main>
+    <script src="../theme.js" defer></script>
 </body>
 </html>
