@@ -4,104 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../lesson.css">
-    <title>Assignment</title>
-    <style>
-        body {
-            background-color: grey;
-            padding: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="../theme.css">
+    <title>HTML Void and SVG Elements</title>
 </head>
 <body>
-    <!-- Container Tags -->
-     <h1>This is heading 1</h1>
-     <h2>This is heading 2</h2>
-     <h3>This is heading 3</h3>
-     <h4>This is heading 4</h4>
-     <h5>This is heading 5</h5>
-     <h6>This is heading 6</h6>
-     <p>This is a paragraph.</p>
-     <div>This is a div.</div>
-     <section>This is a section.</section>
-     <footer>This is a footer.</footer>
-     <nav>This is a nav.</nav> 
-     <ol>
-         <li>This is a list item.</li>
-     </ol>
-     <ul>
-         <li>This is a list item.</li>
-     </ul>
-     <font>This is font text.</font>
-     <center>This is centered text.</center>
-     <form>
-        <input type="button" value="Click me">
-     </form>
-     <dl>
-        <dt>This is a definition term.</dt>
-        <dd>This is a definition description.</dd>
-    </dl>
-     <table border="1">
-        <tr>
-        <th>This is a table header.</th>
-        </tr>
-    </table>
-     <sub>This is subscript text.</sub>
-     <mark>This is marked text.</mark>
-     <strong>This is strong text.</strong>
-     <article>This is an article.</article>
-     <!-- This is comment -->
-     <main>This is the main content.</main>
-     <header>This is a header.</header>
-     <i>This is italic text.</i>
-     <small>This is small text.</small>
-    <a href="https://example.com/">Example link</a>
-     <span>This is a span.</span>
-     <label for="name">Name:</label>
-     <option value="option1">Option 1</option>
-     <button>Click me</button>
-
-    <!-- Self closing Tags -->
-    <br>
-    <img src="../Html multimedia/Images/Profile image.jpg" alt="Portrait used in the HTML media lesson" width="240">
-    <hr>
-    <input type="text" placeholder="Enter text">
-    <meta name="description" content="HTML self-closing tag examples">
-    <area shape="rect" coords="0,0,10,10" href="https://example.com/">
-    <col>
-    <embed src="../Html multimedia/Video/VID-20260501-WA0014.mp4" type="video/mp4" width="320" height="240">
-    <audio controls>
-        <source src="../Html multimedia/Music/See_You_Again.mp3" type="audio/mpeg">
-        Audio playback is not supported by this browser.
-    </audio>
-    <param name="movie" value="film.swf">
-    <wbr>
-    <command type="command" label="Save">
-    <keygen name="security">
-    <menuitem type="command" label="Open">
-    <svg width="0" height="0" aria-hidden="true">
-        <circle cx="0" cy="0" r="1" />
-        <ellipse cx="0" cy="0" rx="1" ry="1" />
-        <line x1="0" y1="0" x2="1" y2="1" />
-        <path d="M0 0" />
-        <polygon points="0,0 1,0 0,1" />
-        <polyline points="0,0 1,1" />
-        <rect width="1" height="1" />
-        <stop offset="0" />
-        <use href="#shape" />
-        <view viewBox="0 0 1 1" />
-        <image href="../Html multimedia/Images/Profile image.jpg" width="1" height="1" />
-        <feBlend in="SourceGraphic" in2="SourceGraphic" />
-        <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-        <feComponentTransfer />
-        <feComposite in="SourceGraphic" in2="SourceGraphic" />
-        <feConvolveMatrix order="1" kernelMatrix="1" />
-        <feDiffuseLighting in="SourceGraphic" />
-        <feDisplacementMap in="SourceGraphic" in2="SourceGraphic" />
-        <feDistantLight azimuth="0" elevation="0" />
-        <feDropShadow dx="0" dy="0" stdDeviation="0" />
-        <feFlood flood-color="black" />
-        <feFuncA type="identity" />
-        <feFuncB type="identity" />
-    </svg>
+    <header>
+        <p><a href="../index.html">All lessons</a></p>
+        <h1>HTML Void and SVG Elements</h1>
+        <p>
+            This assignment shows 40 element names as code examples:
+            17 HTML entries and 23 SVG entries.
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>HTML void-element examples</h2>
+            <p>
+                A void element has no child content and no closing tag. Some names
+                in this historical practice list are obsolete, so they are shown
+                as text rather than used as active HTML.
+            </p>
+            <ol>
+                <li><code>&lt;br&gt;</code> line break</li>
+                <li><code>&lt;img&gt;</code> image</li>
+                <li><code>&lt;hr&gt;</code> thematic break</li>
+                <li><code>&lt;input&gt;</code> form control</li>
+                <li><code>&lt;meta&gt;</code> document metadata</li>
+                <li><code>&lt;link&gt;</code> external resource link</li>
+                <li><code>&lt;area&gt;</code> image-map area</li>
+                <li><code>&lt;base&gt;</code> base URL</li>
+                <li><code>&lt;col&gt;</code> table column settings</li>
+                <li><code>&lt;embed&gt;</code> embedded content</li>
+                <li><code>&lt;source&gt;</code> media source</li>
+                <li><code>&lt;track&gt;</code> timed text track</li>
+                <li><code>&lt;param&gt;</code> obsolete object parameter</li>
+                <li><code>&lt;wbr&gt;</code> optional word-break position</li>
+                <li><code>&lt;command&gt;</code> obsolete command element</li>
+                <li><code>&lt;keygen&gt;</code> obsolete key-pair control</li>
+                <li><code>&lt;menuitem&gt;</code> obsolete menu item</li>
+            </ol>
+        </section>
+        <section>
+            <h2>SVG empty-element examples</h2>
+            <p>These SVG elements belong inside an <code>&lt;svg&gt;</code> element; they are not HTML void elements.</p>
+            <ol>
+                <li><code>&lt;circle /&gt;</code> circle</li>
+                <li><code>&lt;ellipse /&gt;</code> ellipse</li>
+                <li><code>&lt;line /&gt;</code> straight line</li>
+                <li><code>&lt;path /&gt;</code> custom path</li>
+                <li><code>&lt;polygon /&gt;</code> closed shape</li>
+                <li><code>&lt;polyline /&gt;</code> connected open lines</li>
+                <li><code>&lt;rect /&gt;</code> rectangle</li>
+                <li><code>&lt;stop /&gt;</code> gradient color stop</li>
+                <li><code>&lt;use /&gt;</code> reused SVG element</li>
+                <li><code>&lt;view /&gt;</code> SVG view</li>
+                <li><code>&lt;image /&gt;</code> image inside SVG</li>
+                <li><code>&lt;feBlend /&gt;</code> blend filter</li>
+                <li><code>&lt;feColorMatrix /&gt;</code> color-matrix filter</li>
+                <li><code>&lt;feComponentTransfer /&gt;</code> color-channel adjustment</li>
+                <li><code>&lt;feComposite /&gt;</code> image compositing</li>
+                <li><code>&lt;feConvolveMatrix /&gt;</code> convolution filter</li>
+                <li><code>&lt;feDiffuseLighting /&gt;</code> diffuse-lighting filter</li>
+                <li><code>&lt;feDisplacementMap /&gt;</code> displacement filter</li>
+                <li><code>&lt;feDistantLight /&gt;</code> distant light source</li>
+                <li><code>&lt;feDropShadow /&gt;</code> drop-shadow filter</li>
+                <li><code>&lt;feFlood /&gt;</code> solid-color filter input</li>
+                <li><code>&lt;feFuncA /&gt;</code> alpha-channel function</li>
+                <li><code>&lt;feFuncB /&gt;</code> blue-channel function</li>
+            </ol>
+            <svg width="160" height="90" viewBox="0 0 160 90" role="img" aria-label="Example SVG with a rectangle and a circle">
+                <rect x="5" y="5" width="150" height="80" fill="#dcebe5"></rect>
+                <circle cx="80" cy="45" r="28" fill="#006b62"></circle>
+            </svg>
+        </section>
+    </main>
+    <script src="../theme.js" defer></script>
 </body>
 </html>
