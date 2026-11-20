@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+:root { color-scheme: light; --white: #FFFFFF; --black: #000000; --blue: #1D4ED8; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: clamp(1rem, 5vw, 4rem); background: var(--white); color: var(--black); font: 500 1rem/1.65 "Plus Jakarta Sans", sans-serif; }
+header, main { max-width: 72rem; margin-inline: auto; }
+header { border: 2px solid var(--black); padding: 1.2rem; }
+h1, h2, h3, h4, h5, h6 { font-family: "Archivo Black", Impact, sans-serif; line-height: 1.05; }
+h1 { margin: 0; font-size: clamp(2.7rem, 8vw, 6rem); letter-spacing: -.05em; }
+main { padding-block: 1.2rem; }
+main > section, main > article { margin-block: 1.2rem; padding: clamp(1rem, 3vw, 2rem); border: 2px solid var(--black); box-shadow: 6px 6px 0 var(--black); }
+a { color: var(--black); text-decoration-thickness: 2px; text-underline-offset: .2em; }
+a:hover, a:focus-visible { color: var(--blue); background: #e8edff; outline: 2px solid var(--blue); }
+nav a[aria-current="page"], nav a:active { color: var(--blue); }
+li::marker { color: var(--blue); font-weight: 700; }
+code { padding: .1rem .25rem; border: 1px solid var(--black); background: #f1f1f1; }
